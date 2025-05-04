@@ -1,0 +1,8 @@
+Jimmy - 
+1) I added some simple CSS to spruce up the header and footer a small bit, definitely not finalized yet and the current state is more so a placeholder for the future
+2) I've set up the basic JS necessary for the receipt page. I haven't set up the pricing + math that's necessary but it's the foundation to get info onto the receipt page
+3) Receipt HTML is also not finished, was mainly trying to make sure the JS worked before starting on the important sections
+
+Scott- 
+1) on the assignment it says that the home page is just for an introduction to the restaurant while the menu page is for the menu and options, need to hoe page and build-pizza slide around
+2) on the build pizza slide we dont need the crust and sizes ( says only need to offer one size of pizza)

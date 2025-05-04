@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><a href="home.html">Pizza Planet</a></h2>
+        <nav>
+            <a href="/home.html">Home</a>
+            <a href="placeholder2">Menu</a>
+            <a href="/buildpizza.html">Build Your Pizza</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Welcome to Planet Pizza</h1>
+            <p>Out of This World Flavor, Straight from Planet Pizza</p>
+        </section>
+
+        <section class="featured">
+            <h2>Intergalactic Pizza Builder</h2>
+
+            <div class="pizza-builder">
+                <div class="pizza-image">
+                    <img src="img/placeholder" alt="Build Your Own Pizza" width="300">
+                </div>
+
+                <div class="pizza-options">
+                    <h3>Create Your Own Pizza</h3>
+                    <p>270 cal/slice, 8 slices</p>
+
+                    <form id="buildPizza">
+                        <fieldset>
+                            <legend>Size</legend>
+                            <label><input type="radio" name="size" value="small"> Small</label><br>
+                            <label><input type="radio" name="size" value="medium"> Medium</label><br>
+                            <label><input type="radio" name="size" value="large" checked> Large</label><br>
+                            <label><input type="radio" name="size" value="extra-large"> Extra Large</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Crust</legend>
+                            <label><input type="radio" name="crust" value="original" checked> Original Crust</label><br>
+                            <label><input type="radio" name="crust" value="thin"> Thin Crust</label><br>
+                            <label><input type="radio" name="crust" value="stuffed"> Stuffed Crust</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Sauce</legend>
+                            <label><input type="radio" name="sauce" value="marinara" checked> Marinara</label><br>
+                            <label><input type="radio" name="sauce" value="alfredo"> Alfredo</label><br>
+                            <label><input type="radio" name="sauce" value="buffalo"> Buffalo</label><br>
+                            <label><input type="radio" name="sauce" value="barbeque"> Barbeque</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Cheese</legend>
+                            <label><input type="radio" name="cheese" value="regular" checked> Regular Cheese</label><br>
+                            <label><input type="radio" name="cheese" value="extra"> Extra Cheese</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Meats</legend>
+                            <label><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label><br>
+                            <label><input type="checkbox" name="toppings" value="sausage"> Sausage</label><br>
+                            <label><input type="checkbox" name="toppings" value="bacon"> Bacon</label><br>
+                            <label><input type="checkbox" name="toppings" value="chicken"> Chicken</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Veggies</legend>
+                            <label><input type="checkbox" name="toppings" value="mushroom"> Mushrooms</label><br>
+                            <label><input type="checkbox" name="toppings" value="onion"> Onions</label><br>
+                            <label><input type="checkbox" name="toppings" value="pepper"> Green Peppers</label><br>
+                            <label><input type="checkbox" name="toppings" value="black olives"> Black Olives</label><br>
+                            <label><input type="checkbox" name="toppings" value="pineapple"> Pineapples</label>
+                        </fieldset>
+
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1"><br><br>
+
+                        <button type="submit">Add to Order</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/build-submit.js"></script>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <p><strong>Pizza Planet</strong></p>
+                <p>165 Court St, Binghamton, NY 13870</p>
+            </div>
+            <div>
+                <p><strong>Hours</strong></p>
+                <p>Open Daily: 11AM – 9PM</p>
+            </div>
+            <div>
+                <p><strong>Contact</strong></p>
+                <p>(917) 999-9999</p>
+                <p><a href="mailto:contact@pizzaplanet.com">contact@pizzaplanet.com</a></p>
+            </div>
+        </div>
+        <p style="margin-top: 1rem;">&copy; 2025 Pizza Planet. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
