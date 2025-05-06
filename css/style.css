@@ -152,3 +152,8 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.home_build {
+  width: 260px;
+  margin: 0 auto;
+  text-align: center;
+}
