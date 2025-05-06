@@ -5,4 +5,4 @@ Jimmy -
 
 Scott- 
 1) on the assignment it says that the home page is just for an introduction to the restaurant while the menu page is for the menu and options, need to hoe page and build-pizza slide around
-2) on the build pizza slide we dont need the crust and sizes ( says only need to offer one size of pizza)
+2) on the build pizza slide we dont need the crust and sizes ( says only need to offer one size of pizza) ✅
