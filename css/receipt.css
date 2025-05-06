@@ -1,0 +1,44 @@
+/* === Receipt Container === */
+.receipt-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.receipt-container p {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* === Table === */
+.receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.receipt-table th,
+.receipt-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.receipt-table th {
+    background-color: #f0f0f0;
+}
+
+.receipt-table tfoot td {
+    font-weight: bold;
+    background-color: #fafafa;
+}
