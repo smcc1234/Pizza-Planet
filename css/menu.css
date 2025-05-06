@@ -10,6 +10,7 @@ header {
     background-color: #5e4b8b;
     color: white;
     padding: 20px;
+    text-align: center;
 }
 
 .logo a {
@@ -24,7 +25,7 @@ nav {
 }
 
 nav a {
-    margin-right: 15px;
+    margin: 0 15px;
     color: #ffd9f2;
     text-decoration: none;
     font-weight: bold;
@@ -59,6 +60,7 @@ nav a:hover {
     font-size: 18px;
     color: #472e7d;
     border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.05);
 }
 
 .price {
